@@ -1,0 +1,21 @@
+{
+    "credentials": {
+        "clientID": "XXXXXXXXXXXXXX",
+        "clientSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "password": "XXXXXXXX",
+        "username": "XXXXXXXX",
+        "userAgent": "Queue Checker by /u/LackingAGoodName"
+    },
+    "interval": 3600,
+    "subreddits": [
+        "XXXX",
+        "XXXXXXXXXXXXXX",
+        "XXXXXXXXXX"
+    ],
+    "webhook": {
+        "avatarURL": "XXXXXXXXXXXXXXXXX",
+        "embedColor": "FFFFFF",
+        "url": "XXXXXXXXXX",
+        "username": "Queue Checker"
+    }
+}
