@@ -1,17 +1,20 @@
-# Queue
+# Echelon
 
-Queue is a utility for Reddit Moderators to keep track of Moderation and Unmoderated Queue sizes by POSTing to a Discord Webhook.
+Echelon is a utility for Reddit Moderators to keep track of Modqueue and Unmoderated queue sizes by notifying via Discord Webhook.
+
+## Requirements
+
+-   [Python 3.7](https://www.python.org/downloads/release/python-370/)
+-   [praw](https://praw.readthedocs.io/en/latest/getting_started/installation.html)
+-   [requests](https://pypi.org/project/requests/)
+-   [coloredlogs](https://pypi.org/project/coloredlogs/)
 
 ## Usage
 
-**Prerequisites**
+Open `configuration_example.json` in your preferred text editor and fill in the configurable values. Once finished, save and rename the file to `configuration.json`.
 
--   [Python 3.7](https://www.python.org/downloads/release/python-370/)
--   [PRAW](https://praw.readthedocs.io/en/latest/getting_started/installation.html)
+Echelon is designed to be ran using a scheduler, such as [cron](https://en.wikipedia.org/wiki/Cron).
 
-**Instructions**
-
--   Clone or [Download](https://github.com/EthanC/Queue/archive/master.zip) the Queue repository, extract the contents to an easily-accessible location.
--   Use existing credentials, or [create a Reddit Script Application](https://github.com/reddit-archive/reddit/wiki/OAuth2#getting-started).
--   Open `config_example.json` in a text editor, fill in all values as they are required. Save and close, then rename the file to `config.json`.
--   Open a command line in the same folder, enter the following `python Queue.py`. If all instructions were followed correctly, the application will begin.
+```
+python echelon.py
+```

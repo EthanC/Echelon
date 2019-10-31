@@ -1,0 +1,37 @@
+{
+    "credentials": {
+        "clientId": "XXXXXXXXXXXXXX",
+        "clientSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "password": "XXXXXXXX",
+        "username": "XXXXXXXX"
+    },
+    "subreddits": [
+        {
+            "name": "ModernWarfare",
+            "modqueue": true,
+            "unmoderated": false
+        },
+        {
+            "name": "BlackOps4",
+            "modqueue": true,
+            "unmoderated": true
+        },
+        {
+            "name": "WWII",
+            "modqueue": false,
+            "unmoderated": true
+        },
+        {
+            "name": "CODZombies",
+            "modqueue": true,
+            "unmoderated": true
+        }
+    ],
+    "webhook": {
+        "avatarURL": "https://i.imgur.com/i6kCFBa.jpg",
+        "embedColor": "FF4500",
+        "url": "https://canary.discordapp.com/api/webhooks/XXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXX",
+        "username": "Moderator Queues",
+        "inline": true
+    }
+}
