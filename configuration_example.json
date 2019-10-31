@@ -17,13 +17,8 @@
             "unmoderated": true
         },
         {
-            "name": "WWII",
-            "modqueue": false,
-            "unmoderated": true
-        },
-        {
             "name": "CODZombies",
-            "modqueue": true,
+            "modqueue": false,
             "unmoderated": true
         }
     ],
